@@ -1,0 +1,1876 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta name="author" content="Kavya Sree Ummidi, Tej Maddimsetty">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <meta name="keywords" content="Bootstrap, Landing page, Template, Registration, Landing">
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+      <meta name="author" content="Grayrids">
+      <title>Careers - Sky Goal Tech</title>
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" rel="stylesheet">
+      <!-- Vendor CSS Files -->
+      <link href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css' rel='stylesheet'>
+      <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css' rel='stylesheet'>
+      <link rel="stylesheet" href="assets/css/line-icons.css">
+      <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+      <link rel="stylesheet" href="assets/css/owl.theme.default.css">
+      <link rel="stylesheet" href="assets/css/slicknav.min.css">
+      <link rel="stylesheet" href="assets/css/animate.css">
+      <link rel="stylesheet" href="assets/css/responsive.css">
+      <link href="assets/css/form.css" rel="stylesheet">
+
+      <style>
+        
+ .section{
+     padding:60px 0 
+}
+ .section-header{
+     color:#fff;
+     margin-bottom:40px;
+     text-align:center;
+     position:relative 
+}
+ .section-header .section-title{
+     font-size:30px;
+     margin-bottom:10px;
+     font-family:rubik,sans-serif;
+     font-weight:700;
+     color:#333;
+     position:relative 
+}
+ .hero-area{
+     background:rgb(204, 221, 233);
+     color:#fff;
+     overflow:hidden;
+     position:relative 
+}
+ .hero-area .contents{
+     padding:150px 0 80px 
+}
+ .hero-area .contents h2{
+     color:#333;
+     font-size:42px;
+     font-weight:700;
+     line-height:60px;
+     margin-bottom:25px 
+}
+ .hero-area .contents p{
+     color:#000;
+     font-size:14px;
+     line-height:26px 
+}
+ .hero-area .contents .btn{
+     margin-top:40px;
+     margin-right:20px;
+     text-transform:uppercase 
+}
+ .hero-area .contents .btn-border{
+     border:2px solid #fff;
+     color:#fff 
+}
+ .hero-area .intro-img{
+     padding:120px 0 0 
+}
+ .hero-area .intro-img img{
+     display:block;
+     height:auto;
+     max-width:100% 
+}
+ .job-search-form{
+     margin-top:35px 
+}
+ .job-search-form .form-group{
+     margin-bottom:0 
+}
+ .job-search-form .form-group .form-control{
+     height:46px ;
+      border:1px solid #ececec;
+      border:0;
+     border-radius:30px;
+}
+ .job-search-form .form-group i{
+     position:absolute;
+     top:14px;
+     color:#9a9a9a;
+     right:30px;
+     font-size:18px 
+}
+ .job-search-form .search-category-container .styled-select>select{
+     background:0 0;
+    font-size:14px;
+     line-height:25px;
+     border:0;
+     border-radius:30px;
+     height:46px;
+     border:1px solid #ececec;
+     color:#495057;
+     padding:10px 20px;
+     z-index:1;
+     width:100%;
+     position:relative;
+     appearance:none;
+     -moz-appearance:none;
+     -webkit-appearance:none 
+}
+ .job-search-form .button{
+     font-size:22px;
+     line-height:14px;
+     display:inline-block;
+     position:relative;
+     outline:none!important;
+     background:#00aedf;
+     color:#fff;
+     cursor:pointer;
+     border:none;
+     text-align:center;
+     overflow:hidden;
+     padding:11px 12px;
+     -webkit-transition:.3s;
+     -o-transition:.3s;
+     transition:.3s;
+     border-radius:4px;
+     z-index:1 
+}
+ .job-search-form .button:hover{
+     box-shadow:0 7px 9px rgba(96,94,94,.17) 
+}
+ .job-search-form .button::before{
+     content:'';
+     position:absolute;
+     top:0;
+    left:0;
+     width:100%;
+     height:100%;
+    z-index:1;
+     border-radius:4px;
+     opacity:0;
+     transform:scale(0,0);
+     z-index:-1;
+     -webkit-transition:all .5s ease-out 0s;
+     -moz-transition:all .5s ease-out 0s;
+     -ms-transition:all .5s ease-out 0s;
+     -o-transition:all .5s ease-out 0s;
+     transition:all .5s ease-out 0s 
+}
+ .job-search-form .button:hover::before{
+     background-color:rgba(255,255,255,.2);
+     opacity:1;
+     transform:scale(1,1) 
+}
+ .job-featured-search{
+     padding:15px 0;
+     border-radius:6px 
+}
+ label {
+     display: block;
+     margin-bottom: .5rem;
+}
+ .work-process{
+     padding:0 30px;
+     text-align:center 
+}
+.work-process .process-icon{
+     font-size:48px;
+     color:#00aedf;
+     display:inline-block;
+     margin-bottom:10px 
+}
+ .work-process h4{
+     font-size:20px;
+     font-weight:500;
+     margin-bottom:10px 
+}
+ .browse-catagories .img-box{
+     display:inline-block;
+     position:relative;
+     width:100%;
+     overflow:hidden;
+     z-index:90;
+     margin:10px 0;
+     border-radius:3px 
+}
+ .browse-catagories .img-box .img-box-content{
+     position:absolute;
+     z-index:101;
+     bottom:0;
+     padding:30px;
+     width:100%;
+     transition:.3s ease-out;
+     -webkit-transition:.3s ease-out;
+     -moz-transition:.3s ease-out 
+}
+ .browse-catagories .img-box .img-box-content h4{
+     font-size:20px;
+     font-weight:500;
+     line-height:36px;
+     color:#fff;
+     margin:0 
+}
+
+ .browse-catagories .img-box .img-box-content span{
+     font-size:14px;
+     font-weight:400;
+     color:#fff 
+}
+ .browse-catagories .img-box:before{
+     position:absolute;
+     top:0;
+     left:0;
+     width:100%;
+     height:100%;
+     display:block;
+     content:"";
+     background-color:rgba(0,0,0,.45);
+     z-index:99;
+     transition:.3s ease-out;
+     -webkit-transition:.3s ease-out;
+     -moz-transition:.3s ease-out 
+}
+ .browse-catagories .img-box:hover:before{
+     background-color:rgba(0,0,0,.2);
+
+}
+ #latest-jobs .save-icon i {
+     color: #e0e0e0;
+     width: 32px;
+     height: 32px;
+     line-height: 32px;
+     display: block;
+     text-align: center;
+     border-radius: 50%;
+     border: 1px solid #e0e0e0;
+     font-size: 15px;
+     transition: all .3s ease-in-out;
+     -moz-transition: all .3s ease-in-out;
+     -webkit-transition: all .3s ease-in-out;
+     -o-transition: all .3s ease-in-out;
+}
+ #latest-jobs .save-icon i:hover {
+     color: #00adef;
+}
+ .services-item{
+     padding:15px;
+     background:#fff;
+     position:relative;
+     transition:all .3s ease-in-out;
+     -moz-transition:all .3s ease-in-out;
+     -webkit-transition:all .3s ease-in-out;
+     -o-transition:all .3s ease-in-out 
+}
+ .services-item .icon{
+     margin-bottom:20px 
+}
+ .services-item .icon i{
+     font-size:42px;
+     line-height:60px;
+     background:linear-gradient(to right,#3c96ff 0%,#2dfbff 100%);
+     -webkit-text-fill-color:transparent;
+     transition:all .3s ease-in-out;
+     -moz-transition:all .3s ease-in-out;
+     -webkit-transition:all .3s ease-in-out;
+     -o-transition:all .3s ease-in-out 
+}
+ .services-item h4{
+     font-size:18px;
+     font-weight:600;
+     margin-bottom:15px 
+}
+ .services-item p{
+     margin:0 
+}
+ .feature-content{
+     background:#f6fbfd 
+}
+ #featured .job-featured{
+     background:#fff;
+     padding:20px;
+     margin:15px 0;
+     border-radius:4px;
+     border-left:4px solid transparent;
+     box-shadow:0 0 14px rgba(191,191,191,.24);
+     transition:all .3s ease-in-out;
+     -moz-transition:all .3s ease-in-out;
+     -webkit-transition:all .3s ease-in-out;
+     -o-transition:all .3s ease-in-out 
+}
+ #featured .job-featured .icon{
+     position:relative;
+     width:70px;
+     text-align:center;
+     display:inline-block;
+     height:70px;
+     line-height:70px;
+     box-shadow:0 0 7px rgba(203,203,203,.23) 
+}
+ #featured .job-featured .content{
+     padding-left:90px 
+}
+ #featured .job-featured .content h3{
+     font-size:20px;
+     font-weight:500;
+     margin-bottom:5px 
+}
+ #featured .job-featured .content h3 a{
+    color:#333
+}
+#featured .job-featured .content h3 a:hover{
+   text-decoration: none;
+     color:#00aedf 
+}
+ #featured .job-featured .content .brand{
+     font-size:15px;
+     margin-bottom:10px;
+     color:#666 
+}
+#featured .job-featured .content .tags{
+     margin-bottom:15px 
+}
+ #featured .job-featured .content .tags span{
+     margin-right:10px 
+}
+ #featured .job-featured .content .tags span i{
+     margin-right:5px;
+     color:#00aedf 
+}
+ #featured .job-featured:hover{
+     border-color:#00aedf ;
+     text-decoration: none;
+}
+ .f-category{
+     -webkit-transition:all .3s linear;
+     -moz-transition:all .3s linear;
+     -ms-transition:all .3s linear;
+     -o-transition:all .3s linear;
+     transition:all .3s linear;
+     border:1px solid #f1f1f1;
+     margin-top:-1px;
+     background:#fff;
+     padding:20px;
+     text-align:center;
+     overflow:hidden;
+    display:block;
+    margin-right:-1px
+}
+.f-category a{
+    display:block
+}
+.f-category:hover{
+    background:#f9fcff;
+    text-decoration: none;
+}
+.f-category .icon{
+    width:64px;
+    height:64px;
+    display:inline-block;
+    border-radius:50%;
+    margin-top:5px;
+    margin-bottom:15px;
+    transform:scale(1);
+    -moz-transform:scale(1);
+    -webkit-transform:scale(1);
+    -webkit-transition:all .3s linear;
+    -moz-transition:all .3s linear;
+    -ms-transition:all .3s linear;
+    -o-transition:all .3s linear;
+    transition:all .3s linear
+}
+.f-category .icon i{
+    font-size:30px;
+    color:#fff;
+    line-height:64px
+}
+.f-category h3{
+    font-size:18px;
+    line-height:32px;
+    -webkit-transition:all .3s linear;
+    -moz-transition:all .3s linear;
+    -ms-transition:all .3s linear;
+    -o-transition:all .3s linear;
+    transition:all .3s linear;
+    color:#333
+}
+.f-category h3:hover{
+    color:#00aedf
+}
+.f-category p{
+    color:#9a9a9a
+}
+.f-category:hover .icon{
+    transform:scale(1.1);
+    -moz-transform:scale(1.1);
+    -webkit-transform:scale(1.1)
+}
+.bg-color-1{
+    background:#00aedf
+}
+.bg-color-2{
+    background:#4dadf5
+}
+.bg-color-3{
+    background:#028af1
+}
+.bg-color-4{
+    background:#8000ff
+}
+.bg-color-5{
+    background:#40e0d0
+}
+.bg-color-6{
+    background:#ff8000
+}
+.bg-color-7{
+    background:#1d64b4
+}
+.bg-color-8{
+    background:#fbc1f0
+}
+#browse-jobs .text-wrapper{
+    width:100%;
+    display:table;
+    height:100%
+}
+#browse-jobs .text-wrapper>div{
+    vertical-align:middle;
+    display:table-cell
+}
+#browse-jobs .text-wrapper h3{
+    font-size:36px;
+    font-weight:500;
+    margin-bottom:30px
+}
+#browse-jobs .text-wrapper p{
+    margin-bottom:35px
+}
+#latest-jobs .jobs-latest{
+    background:#fff;
+    margin:15px 0;
+    border-radius:4px;
+    display:inline-block;
+    width:100%;
+    position:relative;
+    box-shadow:0 0 14px rgba(191,191,191,.24);
+    transition:all .3s ease-in-out;
+    -moz-transition:all .3s ease-in-out;
+    -webkit-transition:all .3s ease-in-out;
+    -o-transition:all .3s ease-in-out
+}
+ #latest-jobs .jobs-latest .img-thumb{
+     
+     position:relative;
+     text-align:center;
+     display:inline-block;
+     line-height:120px;
+     height:187px;
+     border-right:1px solid #e0e0e0;
+     padding:30px;
+    width:30% 
+}
+ #latest-jobs .jobs-latest .content{
+     padding:25px;
+    float:left;
+    width:70%
+}
+#latest-jobs .jobs-latest .content h3{
+    font-size:20px;
+    font-weight:500;
+    margin-bottom:5px
+}
+#latest-jobs .jobs-latest .content h3 a{
+    color:#333
+}
+#latest-jobs .jobs-latest .content h3 a:hover{
+   text-decoration: none;
+    color:#00aedf;
+}
+#latest-jobs .jobs-latest .content .brand{
+    font-size:15px;
+    margin-bottom:10px;
+    color:#666
+}
+#latest-jobs .jobs-latest .content .tags{
+    margin-bottom:15px
+}
+#latest-jobs .jobs-latest .content .tags span{
+    margin-right:10px
+}
+#latest-jobs .jobs-latest .content .tags span i{
+    margin-right:5px;
+    color:#00aedf
+}
+#latest-jobs .jobs-latest .content .job-type{
+    color:#00aedf;
+    font-size:11px;
+    font-weight:500;
+    display:inline-block;
+    background:#d5ffe7;
+    padding:5px 15px;
+    border-radius:50px;
+    text-transform:uppercase
+}
+#latest-jobs .jobs-latest .content .part-time{
+    background:#ffd8d2;
+    color:#ff6046
+}
+#latest-jobs .save-icon{
+    position:absolute;
+    top:25px;
+    right:20px
+}
+#latest-jobs .save-icon i{
+    color:#e0e0e0;
+    width:32px;
+    height:32px;
+    line-height:32px;
+    display:block;
+    text-align:center;
+    border-radius:50%;
+    border:1px solid #e0e0e0;
+    font-size:15px;
+    transition:all .3s ease-in-out;
+    -moz-transition:all .3s ease-in-out;
+    -webkit-transition:all .3s ease-in-out;
+     -o-transition:all .3s ease-in-out 
+}
+ .owl-nav{
+     position:relative;
+     top:-180px;
+     left:0 
+}
+ .owl-nav button.owl-prev{
+     float:left;
+     margin-left:-18px 
+}
+ .owl-nav button.owl-next{
+     float:right!important;
+     margin-right:-18px 
+}
+ .owl-nav button{
+     width:40px;
+     height:40px;
+     display:block!important;
+     background:#00aedf!important;
+     text-align:center;
+     display:inline-block;
+     opacity:1!important;
+     border-radius:4px!important;
+     box-shadow:0 2px 4px 0 rgba(0,0,0,.18),0 2px 5px 0 rgba(0,0,0,.15);
+     transition:all .4s ease-in-out;
+     -moz-transition:all .4s ease-in-out;
+     -webkit-transition:all .4s ease-in-out;
+     -o-transition:all .4s ease-in-out 
+}
+ .owl-nav button i{
+     color:#fff;
+     font-size:16px;
+     line-height:40px 
+}
+ .owl-nav button:hover{
+     box-shadow:0 5px 11px 0 rgba(0,0,0,.18),0 4px 15px 0 rgba(0,0,0,.15) 
+}
+ .testimonial-item{
+     padding:30px;
+     margin:15px;
+     background:#fff;
+     text-align:center;
+     border-radius:4px;
+     box-shadow:0 0 14px rgba(191,191,191,.24) 
+}
+ .testimonial-item .author{
+     display:inline-block;
+     margin-bottom:20px 
+}
+ .testimonial-item .author .img-thumb{
+     float:left;
+     overflow:hidden;
+     position:relative 
+}
+ .testimonial-item .author .img-thumb img{
+     border-radius:50%;
+     width:75% 
+}
+ .testimonial-item .content-inner{
+     overflow:hidden 
+}
+ .testimonial-item .content-inner .description{
+     width:100%;
+     margin-bottom:10px 
+}
+ .testimonial-item .content-inner span{
+     color:#a0a6ad 
+}
+ .testimonial-item .content-inner .author-info{
+     padding:3px 0 
+}
+ .testimonial-item .content-inner .author-info h2{
+     font-size:18px;
+     font-weight:500;
+     line-height:30px;
+     margin-bottom:0 
+}
+ .testimonial-item .content-inner .author-info h2 a{
+     color:#484848 
+}
+ .testimonial-item .content-inner .author-info h2 a:hover{
+     color:#00aedf 
+}
+ .owl-carousel .owl-item img{
+     display:inline-block;
+     width:auto 
+}
+ .owl-dots{
+     text-align:center 
+}
+ .owl-dots .owl-dot{
+     display:inline-block;
+     zoom:1 
+}
+ .owl-dots span{
+     display:block;
+     width:12px;
+     height:12px;
+     margin:2px 4px;
+     filter:alpha(opacity=50);
+     opacity:1;
+     border-radius:30px;
+     background:#fff;
+     border:2px solid #fff;
+     box-shadow:0 0 3px rgba(66,68,67,.55);
+     transition:all .4s ease-in-out;
+     -moz-transition:all .4s ease-in-out;
+     -webkit-transition:all .4s ease-in-out;
+     -o-transition:all .4s ease-in-out
+}
+ .owl-dots span:hover{
+     background:#737d80 
+}
+ .owl-dots .active span{
+     background:#00aedf!important 
+}
+ .full-time,.part-time{
+     font-size:11px;
+    font-weight:500;
+    display:inline-block;
+     padding:5px 15px;
+    border-radius:50px;
+    cursor:pointer;
+    text-transform:uppercase;
+     -webkit-transition:all .3s ease-in-out;
+     -moz-transition:all .3s ease-in-out;
+     -o-transition:all .3s ease-in-out;
+     transition:all .3s ease-in-out
+}
+ .full-time{
+     color:#00aedf;
+     background:#d5ffe7
+}
+ .part-time{
+     color:#ff6046;
+     background:#ffd8d2 
+}
+ .full-time:hover, .part-time:hover,.btn-open:hover{
+     box-shadow:0 3px 9px rgba(96,94,94,.17) 
+}
+ #blog .blog-item-wrapper{
+    background:#fff
+}
+#blog .blog-item-wrapper .blog-item-img{
+    position:relative
+}
+#blog .blog-item-wrapper .blog-item-img img{
+    width:100%
+}
+#blog .blog-item-wrapper .blog-item-text{
+    padding:15px 0
+}
+#blog .blog-item-wrapper .blog-item-text h3{
+    font-size:16px;
+    line-height:26px;
+    font-weight:500;
+    margin-bottom:10px
+}
+#blog .blog-item-wrapper .blog-item-text h3 a{
+    color:#333
+}
+#blog .blog-item-wrapper .blog-item-text h3 a:hover{
+    color:#00aedf
+}
+#blog .blog-item-wrapper .readmore{
+    margin-top:15px
+}
+#blog .blog-item-wrapper .readmore i{
+    vertical-align:middle
+}
+#content{
+    padding:60px 0
+}
+.post-title{
+    font-size:22px;
+    font-weight:700;
+    margin-bottom:15px
+}
+.post-title a{
+    color:#444
+}
+.blog-post{
+    margin-bottom:40px;
+    padding-bottom:20px;
+    box-shadow:0 0 14px rgba(191,191,191,.24);
+    overflow:hidden
+}
+.blog-post .post-thumb{
+    position:relative
+}
+.blog-post .post-thumb a{
+    display:block
+}
+.blog-post .post-thumb a img{
+    width:100%
+}
+.blog-post .post-thumb .hover-wrap{
+    position:absolute;
+    left:0;
+    top:0;
+    display:block;
+    width:100%;
+    text-align:center;
+    height:100%;
+    background:rgba(230,230,230,.3);
+    opacity:0;
+    -webkit-transition:all .4s ease;
+    -moz-transition:all .4s ease;
+    transition:all .4s ease
+}
+.blog-post .post-thumb:hover .hover-wrap{
+    opacity:1
+}
+.blog-post .post-thumb:hover .link{
+    margin-top:0
+}
+.blog-post .blog-author{
+    float:left;
+    height:68px;
+    margin-top:32px;
+    text-align:center;
+    width:68px
+}
+.blog-post .blog-author img{
+    border-radius:50%
+}
+.blog-post .post-content{
+    width:100%;
+    padding:30px
+}
+.blog-post .post-content .meta{
+    font-size:13px;
+    margin-bottom:17px;
+    padding-bottom:11px;
+    border-bottom:1px solid #eee
+}
+ .blog-post .post-content .meta .meta-part{
+    display:inline-block;
+    margin-bottom:10px;
+    margin-right:25px
+}
+ .blog-post .post-content .meta .meta-part a{
+    color:#999
+}
+.blog-post .post-content .meta .meta-part a:hover{
+    color:#00aedf
+}
+ .blog-post .post-content .meta .meta-part i{
+     margin-right:5px 
+}
+ .blog-post .post-content p{
+     margin-bottom:30px 
+}
+
+      </style>
+   </head>
+   <body>
+                 <!-- ======= Header ======= -->
+  <body oncontextmenu='return false' class='snippet-body'>
+   <div class="container-fluid px-0">
+     <div class="mynav">
+       <nav class="navbar navbar-expand-md navbar-light bg-white p-0 fixed-top">
+         <a class="navbar-brand mr-4" href="index.html">
+           <img src="assets/img/logo.png" width="90px" height="90px">
+         </a>
+         <button class="navbar-toggler mr-3" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> 
+         </button>
+         <div class="collapse navbar-collapse" id="navbarNav">
+           <ul class="navbar-nav">
+             <li class="nav-item"> <a class="nav-link" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About Us</a>
+               <div class="dropdown-menu" id="dropdown-menu1" aria-labelledby="navbarDropdown1">
+                 <div class="container">
+                   <div class="row">
+                     <div class="col-md-6">
+                       <div class="row d-flex tab">
+                         <div class="fa-icon text-center"> <span class="fas fa-users"></span> 
+                         </div>
+                         <div class="d-flex flex-column">
+                           <a class="dropdown-item" href="ourteam.html">
+                             <h6 class="mb-0">Our Team</h6>
+                           </a>
+                         </div>
+                       </div>
+                     </div>
+                     <div class="col-md-6">
+                       <div class="row d-flex tab">
+                         <div class="fa-icon text-center"> <span class="fas fa-graduation-cap"></span> 
+                         </div>
+                         <div class="d-flex flex-column">
+                           <a class="dropdown-item" href="aboutus.html">
+                             <h6 class="mb-0">About Us</h6>
+                           </a>
+                         </div>
+                       </div>
+                     </div>
+                   </div>
+             </li>
+             <li class="nav-item"> <a class="nav-link" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Solutions</a>
+               <div class="dropdown-menu" id="dropdown-menu2" aria-labelledby="navbarDropdown2">
+                 <div class="container">
+                   <div class="row">
+                     <div class="col-md-6">
+                       <div class="row d-flex tab">
+                         <div class="fa-icon text-center"> <span class="fa fa-building"></span> 
+                         </div>
+                         <div class="d-flex flex-column">
+                           <a class="dropdown-item" href="corporate.html">
+                             <h6 class="mb-0">For Corporate</h6>
+                           </a>
+                         </div>
+                       </div>
+                     </div>
+                     <div class="col-md-6">
+                       <div class="row d-flex tab">
+                         <div class="fa-icon text-center"> <span class="fas fa-luggage-cart"></span> 
+                         </div>
+                         <div class="d-flex flex-column">
+                           <a class="dropdown-item" href="E-commerce.html">
+                             <h6 class="mb-0">For E-commerce</h6>
+                           </a>
+                         </div>
+                       </div>
+                     </div>
+                   </div>
+                   <div class="row">
+                     <div class="col-md-6">
+                       <div class="row d-flex tab">
+                         <div class="fa-icon text-center"><span class="fas fa-book-reader"></span>
+                         </div>
+                         <div class="d-flex flex-column">
+                           <a class="dropdown-item" href="education.html">
+                             <h6 class="mb-0">For Education</h6>
+                           </a>
+                         </div>
+                       </div>
+                     </div>
+                     <div class="col-md-6">
+                       <div class="row d-flex tab">
+                         <div class="fa-icon text-center"><span class="fas fa-handshake"></span>
+                         </div>
+                         <div class="d-flex flex-column">
+                           <a class="dropdown-item" href="consultancy.html">
+                             <h6 class="mb-0">Consultancy Services</h6>
+                           </a>
+                         </div>
+                       </div>
+                     </div>
+                   </div>
+                   <div class="row">
+                     <div class="col-md-6">
+                        <div class="row d-flex tab">
+                           <div class="fa-icon text-center"> <span class="fas fa-layer-group"></span> 
+                           </div>
+                           <div class="d-flex flex-column">
+                             <a class="dropdown-item" href="media.html">
+                               <h6 class="mb-0">Graphics & Design</h6> 
+                             </a>
+                           </div>
+                         </div>
+                       </div>
+                       <div class="col-md-6">
+                         <div class="row d-flex tab">
+                           <div class="fa-icon text-center"><span class="fas fa-cloud"></span> 
+                           </div>
+                           <div class="d-flex flex-column">
+                             <a class="dropdown-item" href="cloud.html">
+                               <h6 class="mb-0">Cloud Solutions</h6>
+                             </a>
+                         </div>
+                       </div>
+                     </div>
+                   </div>
+                 </div>
+               </div>
+             </li>
+             <li class="nav-item"> <a class="nav-link" href="#" id="navbarDropdown3" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">E-Commerce</a>
+               <div class="dropdown-menu" id="dropdown-menu3" aria-labelledby="navbarDropdown3">
+                 <div class="container">
+                   <div class="row">
+                     <div class="col-lg-6">
+                       <div class="row d-flex tab">
+                         <div class="fa-icon text-center"> <span class="fab fa-wordpress"></span> 
+                         </div>
+                         <div class="d-flex flex-column">
+                           <a class="dropdown-item" href="woocomerce.html">
+                             <h6 class="mb-0">Woo-Commerce</h6>
+                           </a>
+                         </div>
+                       </div>
+                     </div>
+                     <div class="col-lg-6">
+                       <div class="row d-flex tab">
+                         <div class="fa-icon text-center"> <span class="fab fa-opencart"></span> 
+                         </div>
+                         <div class="d-flex flex-column">
+                           <a class="dropdown-item" href="opencart.html">
+                             <h6 class="mb-0">OpenCart</h6>
+                           </a>
+                         </div>
+                       </div>
+                     </div>
+                   </div>
+                   <div class="row">
+                     <div class="col-lg-6">
+                       <div class="row d-flex tab">
+                         <div class="fa-icon text-center"> <span class="fab fa-magento"></span> 
+                         </div>
+                         <div class="d-flex flex-column">
+                           <a class="dropdown-item" href="magento.html">
+                             <h6 class="mb-0">Magento</h6>
+                           </a>
+                         </div>
+                       </div>
+                     </div>
+                     <div class="col-lg-6">
+                       <div class="row d-flex tab">
+                         <div class="fa-icon text-center"> <span class="fab fa-shopify"></span> 
+                         </div>
+                         <div class="d-flex flex-column">
+                           <a class="dropdown-item" href="shopify.html">
+                             <h6 class="mb-0">Shopify</h6>
+                           </a>
+                         </div>
+                       </div>
+                     </div>
+                   </div>
+                   <div class="row">
+                     <div class="col-lg-6">
+                       <div class="row d-flex tab">
+                         <div class="fa-icon text-center"> <span class="fas fa-shopping-bag"></span> 
+                         </div>
+                         <div class="d-flex flex-column">
+                           <a class="dropdown-item" href="prestashop.html">
+                             <h6 class="mb-0">PrestaShop</h6>
+                           </a>
+                         </div>
+                       </div>
+                     </div>
+                     <div class="col-lg-6">
+                       <div class="row d-flex tab">
+                         <div class="fa-icon text-center"> <span class="fas fa-cogs"></span> 
+                         </div>
+                         <div class="d-flex flex-column">
+                           <a class="dropdown-item" href="Integratedservices.html">
+                             <h6 class="mb-0">Integrated Services</h6>
+                           </a>
+                         </div>
+                       </div>
+                     </div>
+                   </div>
+                   <div class="row">
+                     <div class="col-lg-6">
+                       <div class="row d-flex tab">
+                         <div class="fa-icon text-center"> <span class="far fa-file-code"></span> 
+                         </div>
+                         <div class="d-flex flex-column">
+                           <a class="dropdown-item" href="ThemeDevelopment.html">
+                             <h6 class="mb-0">Theme Development</h6>
+                           </a>
+                         </div>
+                       </div>
+                     </div>
+                     <div class="col-lg-6">
+                       <div class="row d-flex tab">
+                         <div class="fa-icon text-center"> <span class="fas fa-plug"></span> 
+                         </div>
+                         <div class="d-flex flex-column">
+                           <a class="dropdown-item" href="Plugin.html">
+                             <h6 class="mb-0">Plugin Development</h6>
+                           </a>
+                         </div>
+                       </div>
+                     </div>
+                   </div>
+                 </div>
+               </div>
+             </li>
+          <li class="nav-item"> <a class="nav-link" href="#" id="navbarDropdown3" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Graphic & Design</a>
+               <div class="dropdown-menu" id="dropdown-menu4" aria-labelledby="navbarDropdown3">
+                 <div class="container">
+                   <div class="row">
+                     <div class="col-lg-6">
+                       <div class="row d-flex tab">
+                         <div class="fa-icon text-center"> <span class="fas fa-globe-asia"></span> 
+                         </div>
+                         <div class="d-flex flex-column">
+                           <a class="dropdown-item" href="graphicdesign service.html">
+                             <h6 class="mb-0">Graphic Design</h6>
+                           </a>
+                         </div>
+                       </div>
+                     </div>
+                     <div class="col-lg-6">
+                       <div class="row d-flex tab">
+                         <div class="fa-icon text-center"> <span class="fas fa-cart-plus"></span> 
+                         </div>
+                         <div class="d-flex flex-column">
+                           <a class="dropdown-item" href="ecommercechatbot.html">
+                             <h6 class="mb-0">E-commerce Chatbot</h6>
+                           </a>
+                         </div>
+                       </div>
+                     </div>
+                   </div>
+                   <div class="row">
+                     <div class="col-lg-6">
+                       <div class="row d-flex tab">
+                         <div class="fa-icon text-center"> <span class="fab fa-figma"></span> 
+                         </div>
+                         <div class="d-flex flex-column">
+                           <a class="dropdown-item" href="uiux service.html">
+                             <h6 class="mb-0">UI/UX</h6> 
+                           </a>
+                         </div>
+                       </div>
+                     </div>
+                     <div class="col-lg-6">
+                       <div class="row d-flex tab">
+                         <div class="fa-icon text-center"> <span class="fab fa-wpforms"></span> 
+                         </div>
+                         <div class="d-flex flex-column">
+                           <a class="dropdown-item" href="leadcollectingchatbot.html">
+                             <h6 class="mb-0">Lead Collecting <br>Chatbot</h6>
+                           </a>
+                         </div>
+                       </div>
+                     </div>
+                   </div>
+                   <div class="row">
+                     <div class="col-lg-6">
+                       <div class="row d-flex tab">
+                         <div class="fa-icon text-center"> <span class="fas fa-crop-alt"></span> 
+                         </div>
+                         <div class="d-flex flex-column">
+                           <a class="dropdown-item" href="media.html">
+                             <h6 class="mb-0">Animation videos</h6>
+                           </a>
+                         </div>
+                       </div>
+                     </div>
+                     <div class="col-lg-6">
+                       <div class="row d-flex tab">
+                         <div class="fa-icon text-center"> <span class="far fa-life-ring"></span> 
+                         </div>
+                         <div class="d-flex flex-column">
+                           <a class="dropdown-item" href="#">
+                             <h6 class="mb-0">Support Chatbot</h6>
+                           </a>
+                         </div>
+                       </div>
+                     </div>
+                   </div>
+                   <div class="row">
+                     <div class="col-lg-6">
+                       <div class="row d-flex tab">
+                         <div class="fa-icon text-center"> <span class="fas fa-video"></span> 
+                         </div>
+                         <div class="d-flex flex-column">
+                           <a class="dropdown-item" href="media.html">
+                             <h6 class="mb-0">Corporate Videos</h6>
+                           </a>
+                         </div>
+                       </div>
+                     </div>
+                     <div class="col-lg-6">
+                       <div class="row d-flex tab">
+                         <div class="fa-icon text-center"> <span class="fas fa-building"></span> 
+                         </div>
+                         <div class="d-flex flex-column">
+                           <a class="dropdown-item" href="media.html">
+                             <h6 class="mb-0">For Other Verticles</h6>
+                           </a>
+                         </div>
+                       </div>
+                     </div>
+                   </div>
+                 </div>
+               </div>
+             </li>
+            
+             <li class="nav-item"> <a class="nav-link" href="career.html">Careers</a>
+             </li>
+             <li class="nav-item"> <a class="nav-link" href="portfolio.html">Portfolio</a>
+             </li>
+             <li class="nav-item"> <a class="nav-link" href="contact.html">Contact Us</a>
+             </li>
+             <li class="call-back text-center" data-toggle="modal" data-target="#myModal" style="margin-top: 20px; margin-bottom: 30px;"><a href="#call-back">Get Instant Call Back</a></li>
+             
+           </ul>
+           </div>
+       </nav>
+       </nav>
+       </div>
+      <!-- The Modal -->
+      <div class="modal" id="myModal">
+         <div class="modal-dialog modal-dialog-scrollable">
+           <div class="modal-content">
+             <!-- Modal Header -->
+             <div class="contact-form"> <span class="circle one"></span>
+               <span class="circle two"></span>
+		               <form action="https://formsubmit.co/skygoaltechlabs@gmail.com" method="POST">
+                 <button type="button" class="close" data-dismiss="modal" style="color:#fff">×</button>
+                 <h3 class="title"><i class="fas fa-phone-alt">&nbsp;Get Instant Call Back</i></h3>
+                 <div class="input-container">
+                   <input type="text" name="name" class="input" required/>
+                   <label for="">Full Name</label> <span>Full Name</span>
+                 </div>
+                 <div class="input-container">
+                   <input type="email" name="email" class="input" required/>
+                   <label for="">Email</label> <span>Email</span>
+                 </div>
+                 <div class="input-container">
+                   <input type="tel" name="phone" class="input" required/>
+                   <label for="">Phone</label> <span>Phone</span>
+                 </div>
+                 <div class="input-container">
+                   <input type="Query" name="Query" class="input" required/>
+                   <label for="">Query</label> <span>Query</span>
+                 </div>
+                 <div class="input-container textarea">
+                   <textarea name="message" class="input" required></textarea>
+                   <label for="">Message</label> <span>Message</span>
+                 </div>
+                 <input type="submit" value="Get Call Back" class="formbtn" />
+		           <input type="hidden" name="_next" value="https://nostalgic-chandrasekhar-483744.netlify.app/thankyou.html">
+                 <input type="hidden" name="_subject" value="New submission!">
+               </form>
+             </div>
+           </div>
+         </div>
+       </div>
+       </div>
+     </div>
+     <!-- End Header -->
+           
+         <!-- ======= Hero Section ======= -->
+         <header id="home" class="hero-area">
+            <div class="container">
+               <div class="row space-100">
+                  <div class="col-lg-7 col-md-12 col-xs-12">
+                     <div class="contents">
+                        <h2 class="head-title">Find the <br> job that fits your life</h2>
+                        <p>Aliquam vestibulum cursus felis. In iaculis iaculis sapien ac condimentum. Vestibulum congue posuere lacus, id tincidunt nisi porta sit amet. Suspendisse et sapien varius, pellentesque dui non.</p>
+                        <div class="job-search-form">
+                           <form>
+                              <div class="row">
+                                 <div class="col-lg-5 col-md-5 col-xs-12">
+                                    <div class="form-group">
+                                       <input class="form-control" type="text" placeholder="Job Title">
+                                    </div>
+                                 </div>
+                                 <div class="col-lg-5 col-md-5 col-xs-12">
+                                    <div class="form-group">
+                                       <div class="search-category-container">
+                                          <label class="styled-select">
+                                             <select>
+                                                <option value="none">Locations</option>
+                                                <option value="none">Vijayawada</option>
+                                                <option value="none">Hyderabad</option>
+                                                <option value="none">Vizag</option>
+                                                <option value="none">Tirupati</option>
+                                             </select>
+                                          </label>
+                                       </div>
+                                       <i class="lni-map-marker"></i>
+                                    </div>
+                                 </div>
+                                 <div class="col-lg-2 col-md-2 col-xs-12">
+                                    <button type="submit" class="button"><i class="lni-search"></i></button>
+                                 </div>
+                              </div>
+                           </form>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-lg-5 col-md-12 col-xs-12">
+                     <div class="intro-img">
+                        <img src="assets/img/img/intro.png" alt="">
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </header>
+         
+         <!-- ======= Hero Section Ends ======= -->
+         <!--- Category section starts-->
+         <section class="category section bg-gray">
+            <div class="container">
+               <div class="section-header">
+                  <h2 class="section-title">Browse Categories</h2>
+                  <p>Most popular categories of portal, sorted by popularity</p>
+               </div>
+               <div class="row">
+                  <div class="col-lg-3 col-md-6 col-xs-12 f-category">
+                     <a href="#">
+                        <div class="icon bg-color-1">
+                           <i class="lni-home"></i>
+                        </div>
+                        <h3>Finance</h3>
+                        <p>(4286 jobs)</p>
+                     </a>
+                  </div>
+                  <div class="col-lg-3 col-md-6 col-xs-12 f-category">
+                     <a href="#">
+                        <div class="icon bg-color-2">
+                           <i class="lni-world"></i>
+                        </div>
+                        <h3>Sale/Markting</h3>
+                        <p>(2000 jobs)</p>
+                     </a>
+                  </div>
+                  <div class="col-lg-3 col-md-6 col-xs-12 f-category">
+                     <a href="#">
+                        <div class="icon bg-color-3">
+                           <i class="lni-book"></i>
+                        </div>
+                        <h3>Education/Training</h3>
+                        <p>(1450 jobs)</p>
+                     </a>
+                  </div>
+                  <div class="col-lg-3 col-md-6 col-xs-12 f-category">
+                     <a href="#">
+                        <div class="icon bg-color-4">
+                           <i class="lni-display"></i>
+                        </div>
+                        <h3>Technologies</h3>
+                        <p>(5100 jobs)</p>
+                     </a>
+                  </div>
+                  <div class="col-lg-3 col-md-6 col-xs-12 f-category">
+                     <a href="#">
+                        <div class="icon bg-color-5">
+                           <i class="lni-brush"></i>
+                        </div>
+                        <h3>Art/Design</h3>
+                        <p>(5079 jobs)</p>
+                     </a>
+                  </div>
+                  <div class="col-lg-3 col-md-6 col-xs-12 f-category">
+                     <a href="#">
+                        <div class="icon bg-color-6">
+                           <i class="lni-heart"></i>
+                        </div>
+                        <h3>Healthcare</h3>
+                        <p>(3235 jobs)</p>
+                     </a>
+                  </div>
+                  <div class="col-lg-3 col-md-6 col-xs-12 f-category">
+                     <a href="#">
+                        <div class="icon bg-color-7">
+                           <i class="lni-funnel"></i>
+                        </div>
+                        <h3>Science</h3>
+                        <p>(1800 jobs)</p>
+                     </a>
+                  </div>
+                  <div class="col-lg-3 col-md-6 col-xs-12 f-category">
+                     <a href="#">
+                        <div class="icon bg-color-8">
+                           <i class="lni-cup"></i>
+                        </div>
+                        <h3>Food Services</h3>
+                        <p>(4286 jobs)</p>
+                     </a>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <!---Category section Ends --->
+         <!-- Feature section starts-->
+         <section id="featured" class="section">
+            <div class="container">
+               <div class="section-header">
+                  <h2 class="section-title">Featured Jobs</h2>
+                  <p>Hand-picked jobs featured depending on popularity and benifits</p>
+               </div>
+               <div class="row">
+                  <div class="col-lg-4 col-md-6 col-xs-12">
+                     <div class="job-featured">
+                        <div class="icon">
+                           <img src="assets/img/img/features/img1.png" alt="">
+                        </div>
+                        <div class="content">
+                           <h3><a href="#">Software Engineer</a></h3>
+                           <p class="brand">Skygoal</p>
+                           <div class="tags">
+                              <span><i class="lni-map-marker"></i>Vijayawada</span>
+                              <span><i class="lni-user"></i>John Smith</span>
+                           </div>
+                           <span class="full-time">Full Time</span>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 col-xs-12">
+                     <div class="job-featured">
+                        <div class="icon">
+                           <img src="assets/img/img/features/img2.png" alt="">
+                        </div>
+                        <div class="content">
+                           <h3><a href="#">Graphic Designer</a></h3>
+                           <p class="brand">Skygoal</p>
+                           <div class="tags">
+                              <span><i class="lni-map-marker"></i> Vijayawada</span>
+                              <span><i class="lni-user"></i>John Smith</span>
+                           </div>
+                           <span class="part-time">Part Time</span>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 col-xs-12">
+                     <div class="job-featured">
+                        <div class="icon">
+                           <img src="assets/img/img/features/img3.png" alt="">
+                        </div>
+                        <div class="content">
+                           <h3><a href="#">Managing Director</a></h3>
+                           <p class="brand">Skygoal</p>
+                           <div class="tags">
+                              <span><i class="lni-map-marker"></i> Vijayawada</span>
+                              <span><i class="lni-user"></i>John Smith</span>
+                           </div>
+                           <span class="full-time">Full Time</span>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 col-xs-12">
+                     <div class="job-featured">
+                        <div class="icon">
+                           <img src="assets/img/img/features/img4.png" alt="">
+                        </div>
+                        <div class="content">
+                           <h3><a href="#">Software Engineer</a></h3>
+                           <p class="brand">AmazeSoft</p>
+                           <div class="tags">
+                              <span><i class="lni-map-marker"></i> Vijayawada</span>
+                              <span><i class="lni-user"></i>John Smith</span>
+                           </div>
+                           <span class="full-time">Full Time</span>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 col-xs-12">
+                     <div class="job-featured">
+                        <div class="icon">
+                           <img src="assets/img/img/features/img5.png" alt="">
+                        </div>
+                        <div class="content">
+                           <h3><a href="#">Graphic Designer</a></h3>
+                           <p class="brand">Skygoal</p>
+                           <div class="tags">
+                              <span><i class="lni-map-marker"></i> Vijayawada</span>
+                              <span><i class="lni-user"></i>John Smith</span>
+                           </div>
+                           <span class="part-time">Part Time</span>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 col-xs-12">
+                     <div class="job-featured">
+                        <div class="icon">
+                           <img src="assets/img/img/features/img6.png" alt="">
+                        </div>
+                        <div class="content">
+                           <h3><a href="#">Managing Director</a></h3>
+                           <p class="brand">Skygoal</p>
+                           <div class="tags">
+                              <span><i class="lni-map-marker"></i> Vijayawada</span>
+                              <span><i class="lni-user"></i>John Smith</span>
+                           </div>
+                           <span class="full-time">Full Time</span>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-12 text-center mt-4">
+                     <a href="" class="btn btn-common">Browse All Jobs</a>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <div id="browse-jobs" class="section bg-gray">
+            <div class="container">
+               <div class="row">
+                  <div class="col-lg-6 col-md-12 col-sm-12">
+                     <div class="text-wrapper">
+                        <div>
+                           <h3>7,000+ Browse Jobs</h3>
+                           <p>Search all the open positions on the web. Get your own personalized salary estimate. Read reviews on over 600,000 companies worldwide. The right job is out there.</p>
+                           <a class="btn btn-common" href="#">Search jobs</a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-lg-6 col-md-12 col-sm-12">
+                     <div class="img-thumb">
+                        <img class="img-fluid" src="assets/img/img/search.png" alt="">
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <section class="how-it-works section">
+            <div class="container">
+               <div class="section-header">
+                  <h2 class="section-title">How It Works?</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ellentesque dignissim quam et <br> metus effici turac fringilla lorem facilisis.</p>
+               </div>
+               <div class="row">
+                  <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                     <div class="work-process">
+                        <span class="process-icon">
+                        <i class="lni-user"></i>
+                        </span>
+                        <h4>Create an Account</h4>
+                        <p>Post a job to tell us about your project. We'll quickly match you with the right freelancers find place best.</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                     <div class="work-process step-2">
+                        <span class="process-icon">
+                        <i class="lni-search"></i>
+                        </span>
+                        <h4>Search Jobs</h4>
+                        <p>Post a job to tell us about your project. We'll quickly match you with the right freelancers find place best.</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                     <div class="work-process step-3">
+                        <span class="process-icon">
+                        <i class="lni-cup"></i>
+                        </span>
+                        <h4>Apply</h4>
+                        <p>Post a job to tell us about your project. We'll quickly match you with the right freelancers find place best.</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <!--- Featured section ends-->
+         <!-- Latest Job Secion starts-->
+         <section id="latest-jobs" class="section bg-gray">
+            <div class="container">
+               <div class="section-header">
+                  <h2 class="section-title">Latest Jobs</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ellentesque dignissim quam et <br> metus effici turac fringilla lorem facilisis.</p>
+               </div>
+               <div class="row">
+                  <div class="col-lg-6 col-md-6 col-xs-12">
+                     <div class="jobs-latest">
+                        <div class="img-thumb">
+                           <img src="assets/img/img/features/img1.png" alt="">
+                        </div>
+                        <div class="content">
+                           <h3><a href="#">UX Designer</a></h3>
+                           <p class="brand">Skygoal</p>
+                           <div class="tags">
+                              <span><i class="lni-map-marker"></i> Vijayawada</span>
+                              <span><i class="lni-user"></i>John Smith</span>
+                           </div>
+                           <span class="full-time">Full Time</span>
+                        </div>
+                        <div class="save-icon">
+                           <a href="#"><i class="lni-heart-filled"></i></a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-lg-6 col-md-6 col-xs-12">
+                     <div class="jobs-latest">
+                        <div class="img-thumb" style="float: left;">
+                           <img src="assets/img/img/features/img2.png" alt="">
+                        </div>
+                        <div class="content">
+                           <h3><a href="#">UI Designer</a></h3>
+                           <p class="brand">Skygoal</p>
+                           <div class="tags">
+                              <span><i class="lni-map-marker"></i> Vijayawada</span>
+                              <span><i class="lni-user"></i>John Smith</span>
+                           </div>
+                           <span class="part-time">Part Time</span>
+                        </div>
+                        <div class="save-icon">
+                           <a href="#"><i class="lni-heart-filled"></i></a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-lg-6 col-md-6 col-xs-12">
+                     <div class="jobs-latest">
+                        <div class="img-thumb" style="float:left;">
+                           <img src="assets/img/img/features/img3.png" alt="">
+                        </div>
+                        <div class="content">
+                           <h3><a href="#">Web Developer</a></h3>
+                           <p class="brand">Skygoal</p>
+                           <div class="tags">
+                              <span><i class="lni-map-marker"></i> Vijayawada</span>
+                              <span><i class="lni-user"></i>John Smith</span>
+                           </div>
+                           <span class="full-time">Full Time</span>
+                        </div>
+                        <div class="save-icon">
+                           <a href="#"><i class="lni-heart-filled"></i></a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-lg-6 col-md-6 col-xs-12">
+                     <div class="jobs-latest">
+                        <div class="img-thumb" style="float: left;">
+                           <img src="assets/img/img/features/img4.png" alt="">
+                        </div>
+                        <div class="content">
+                           <h3><a href="#">UX Designer</a></h3>
+                           <p class="brand">Skygoal</p>
+                           <div class="tags">
+                              <span><i class="lni-map-marker"></i> Vijayawada</span>
+                              <span><i class="lni-user"></i>John Smith</span>
+                           </div>
+                           <span class="full-time">Full Time</span>
+                        </div>
+                        <div class="save-icon">
+                           <a href="#"><i class="lni-heart-filled"></i></a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-lg-6 col-md-6 col-xs-12">
+                     <div class="jobs-latest">
+                        <div class="img-thumb" style="float: left;">
+                           <img src="assets/img/img/features/img5.png" alt="">
+                        </div>
+                        <div class="content">
+                           <h3><a href="#">Digital Marketer</a></h3>
+                           <p class="brand">Skygoal</p>
+                           <div class="tags">
+                              <span><i class="lni-map-marker"></i> Vijayawada</span>
+                              <span><i class="lni-user"></i>John Smith</span>
+                           </div>
+                           <span class="part-time">Part Time</span>
+                        </div>
+                        <div class="save-icon">
+                           <a href="#"><i class="lni-heart-filled"></i></a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-lg-6 col-md-6 col-xs-12">
+                     <div class="jobs-latest">
+                        <div class="img-thumb" style="float: left;">
+                           <img src="assets/img/img/features/img6.png" alt="">
+                        </div>
+                        <div class="content">
+                           <h3><a href="#">Web Developer</a></h3>
+                           <p class="brand">Skygoal</p>
+                           <div class="tags">
+                              <span><i class="lni-map-marker"></i> Vijayawada</span>
+                              <span><i class="lni-user"></i>John Smith</span>
+                           </div>
+                           <span class="full-time">Full Time</span>
+                        </div>
+                        <div class="save-icon">
+                           <a href="#"><i class="lni-heart-filled"></i></a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-12 text-center mt-4">
+                     <a href="" class="btn btn-common">Browse All Jobs</a>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <!-- Latest Job section Ends-->
+         <!--- Testinominal Starts-->
+         <section id="testimonial" class="section">
+            <div class="container">
+               <div class="section-header">
+                  <h2 class="section-title">Clients Review</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ellentesque dignissim quam et <br> metus effici turac fringilla lorem facilisis.</p>
+               </div>
+               <div class="row justify-content-center">
+                  <div class="col-lg-8 col-md-12 col-sm-12 col-xs-12">
+                     <div id="testimonials" class="touch-slider owl-carousel">
+                        <div class="item">
+                           <div class="testimonial-item">
+                              <div class="author">
+                                 <div class="img-thumb">
+                                    <img src="assets/img/img/testimonial/img1.png" alt="">
+                                 </div>
+                              </div>
+                              <div class="content-inner">
+                                 <p class="description">Morbi quam enim, cursus non erat pretium veh icula finibus ex stibulum venenatis viverra dui Morbi quam enim, cursus non erat pretium veh icula finibus ex stibulum venenatis viverra dui Morbi quam enim, cursus non erat pretium veh icula finibus ex stibulum venenatis viverra dui.</p>
+                                 <div class="author-info">
+                                    <h2><a href="#">Jessica</a></h2>
+                                    <span>Senior Accountant</span>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="item">
+                           <div class="testimonial-item">
+                              <div class="author">
+                                 <div class="img-thumb">
+                                    <img src="assets/img/img/testimonial/img2.png" alt="">
+                                 </div>
+                              </div>
+                              <div class="content-inner">
+                                 <p class="description">Morbi quam enim, cursus non erat pretium veh icula finibus ex stibulum venenatis viverra dui Morbi quam enim, cursus non erat pretium veh icula finibus ex stibulum venenatis viverra dui Morbi quam enim, cursus non erat pretium veh icula finibus ex stibulum venenatis viverra dui.</p>
+                                 <div class="author-info">
+                                    <h2><a href="#">John Doe</a></h2>
+                                    <span>Project Menager</span>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="item">
+                           <div class="testimonial-item">
+                              <div class="author">
+                                 <div class="img-thumb">
+                                    <img src="assets/img/img/testimonial/img3.png" alt="">
+                                 </div>
+                              </div>
+                              <div class="content-inner">
+                                 <p class="description">Morbi quam enim, cursus non erat pretium veh icula finibus ex stibulum venenatis viverra dui Morbi quam enim, cursus non erat pretium veh icula finibus ex stibulum venenatis viverra dui Morbi quam enim, cursus non erat pretium veh icula finibus ex stibulum venenatis viverra dui.</p>
+                                 <div class="author-info">
+                                    <h2><a href="#">Helen</a></h2>
+                                    <span>Engineer</span>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <!----- Testinominal Ends-->
+         <!-- Blog Section Starts-->
+         <section id="blog" class="section">
+            <div class="container">
+               <div class="section-header">
+                  <h2 class="section-title">Blog Post</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ellentesque dignissim quam et <br> metus effici turac fringilla lorem facilisis.</p>
+               </div>
+               <div class="row">
+                  <div class="col-lg-4 col-md-6 col-xs-12 blog-item">
+                     <div class="blog-item-wrapper">
+                        <div class="blog-item-img">
+                           <a href="#">
+                           <img src="assets/img/img/blog/img1.jpg" alt="">
+                           </a>
+                        </div>
+                        <div class="blog-item-text">
+                           <h3><a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a></h3>
+                           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore praesentium asperiores ad vitae.</p>
+                        </div>
+                        <a class="readmore" href="#">Read More</a>
+                     </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 col-xs-12 blog-item">
+                     <div class="blog-item-wrapper">
+                        <div class="blog-item-img">
+                           <a href="#">
+                           <img src="assets/img/img/blog/img2.jpg" alt="">
+                           </a>
+                        </div>
+                        <div class="blog-item-text">
+                           <h3><a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a></h3>
+                           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore praesentium asperiores ad vitae.</p>
+                        </div>
+                        <a class="readmore" href="#">Read More</a>
+                     </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 col-xs-12 blog-item">
+                     <div class="blog-item-wrapper">
+                        <div class="blog-item-img">
+                           <a href="#">
+                           <img src="assets/img/img/blog/img3.jpg" alt="">
+                           </a>
+                        </div>
+                        <div class="blog-item-text">
+                           <h3><a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a></h3>
+                           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore praesentium asperiores ad vitae.</p>
+                        </div>
+                        <a class="readmore" href="#">Read More</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <!--- Blog Section Ends-->
+         <!-- Read Section Starts-->
+         <section id="download" class="section bg-gray">
+            <div class="container">
+               <div class="row">
+                  <div class="col-lg-6 col-md-8 col-xs-12">
+                     <div class="download-wrapper">
+                        <div>
+                           <div class="download-text">
+                              <h4>Read ournews Skygoal News</h4>
+                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ellentesque dignissim quam et metus effici turac fringilla lorem facilisis, Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                           </div>
+                           <div class="app-button">
+                              <a href="#" class="btn btn-primary"><i class="lni-android"></i> Read more</a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-lg-6 col-md-4 col-xs-12">
+                     <div class="download-thumb">
+                        <img class="img-fluid" src="assets/img/img/app.png" alt="">
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <!-- Read Section Ends-->
+         <!--Footer Starts-->
+         <div class="footer">
+            <footer class="footer--light">
+               <div class="footer-big">
+                  <!-- start .container -->
+                  <div class="container">
+                     <div class="row">
+                        <div class="col-lg-3 col-sm-6">
+                           <div class="footer-widget">
+                              <div class="widget-about">
+                                 <img src="assets/img/logo.png" alt="" class="img-fluid">
+                                 <p>We build better techniques to facilitate a student in a better way compared with existing technologies in market.</p>
+                              </div>
+                           </div>
+                           <!-- Ends: .footer-widget -->
+                        </div>
+                        <!-- end /.col-lg-4 -->
+                        <div class="col-lg-3 col-sm-6">
+                           <div class="footer-widget">
+                              <div class="footer-menu">
+                                 <h4 class="footer-widget-title">About Company</h4>
+                                 <ul>
+                                    <li>
+                                       <a href="aboutus.html">About Us</a>
+                                    </li>
+                                    <li>
+                                       <a href="ourteam.html">Our Team</a>
+                                    </li>
+                                    <li>
+                                       <a href="portfolio.html">Portfolio</a>
+                                    </li>
+                                    <li>
+                                       <a href="contact.html">Contact Us</a>
+                                    </li>
+                                    <li>
+                                       <a href="career.html">Blog</a>
+                                    </li>
+                                 </ul>
+                              </div>
+                              <!-- end /.footer-menu -->
+                           </div>
+                           <!-- Ends: .footer-widget -->
+                        </div>
+                        <!-- end /.col-lg-3 -->
+                        <div class="col-lg-3 col-sm-6">
+                           <div class="footer-widget">
+                              <div class="footer-menu">
+                                 <h4 class="footer-widget-title">Policies</h4>
+                                 <ul>
+                            <li> <a href="privacy.html">Privacy policy</a>
+                            </li>
+                            <li> <a href="refund.html">Refund Policy</a>
+                            </li>
+                            <li> <a href="T&C.html">Terms & Conditions</a>
+                            </li>
+                            <li> <a href="cookie.html">Cookies Policy</a>
+                            </li>
+                            <li>
+                              <ul>
+                              </div>
+                              <!-- end /.footer-menu -->
+                           </div>
+                           <!-- Ends: .footer-widget -->
+                        </div>
+                        <!-- end /.col-lg-3 -->
+                        <div class="col-lg-3 col-sm-6">
+                        <div class="footer-widget">
+                        <div class="footer-menu p-0">
+                        <h4 class="footer-widget-title">Contact Us</h4>
+                        <ul>
+                         <ul class="contact-details">
+                        <li>
+                           <a href="https://www.google.com/maps/place/Gollapudi,+Vijayawada,+Andhra+Pradesh/@16.5406235,80.5629224,14z/data=!3m1!4b1!4m8!1m2!2m1!1sUnit+no.+21,+First+floor,+M.G.+Commercial,+Complex,+Gollapudi,+Vijayawada-+521225,+A.P,+India!3m4!1s0x3a35ee4f6c3d783b:0x3f3a23ad294e8d9c!8m2!3d16.5400016!4d80.5827599">
+                           <i class="fas fa-map-marker-alt"></i>
+                        Unit no. 21, First floor, M.G. Commercial, Complex, Gollapudi, Vijayawada- 521225, A.P, India</a>
+                        </li>
+                        <li>
+                        <a href="tel:+91 765 891 9293"><i class="fas fa-phone-alt"></i>
+                        +91 765 891 9293</a>
+                        </li>
+                        <li>
+                           <a href = "gmailto: info@skygoaltech.com"><i class="fas fa-envelope-open-text"></i>
+                        info@skygoaltech.com</a>
+                        </li>
+                        </ul>
+                        </ul>
+                        </div>
+                        <!-- end /.footer-menu -->
+                        </div>
+                        <!-- Ends: .footer-widget -->
+                        </div>
+                        <!-- Ends: .col-lg-3 -->
+                     </div>
+                     <!-- end /.row -->
+                  </div>
+                  <!-- end /.container -->
+               </div>
+               <!-- end /.footer-big -->
+               <div class="footer-social">
+               <a href=" https://www.facebook.com/skygoaltechlabs"><i class="fab fa-facebook-f"></i></a>
+               <a href="https://twitter.com/skygoaltech"><i class="fab fa-twitter"></i></a>
+               <a href="https://www.instagram.com/skygoaltech/"><i class="fab fa-instagram"></i></a>
+               <a href="https://www.linkedin.com/company/skygoaltech/"><i class="fab fa-linkedin-in"></i></a>
+               <a href="https://www.youtube.com/channel/UC23cSFuUOdz-JdiV_1AybyQ"><i class="fab fa-youtube"></i></a>
+               </div>
+               <div class="mini-footer">
+               <div class="container">
+               <div class="row">
+               <div class="col-md-12">
+               <div class="copyright-text">
+               <p>© 2021
+               <a href="#">Sky Goal INC</a>. All rights reserved.
+               </p>
+               </div> 
+               </div>
+               </div>
+               </div>
+               </div>
+            </footer>
+         </div>
+         <!--- Footer Section Ends-->
+         <script src="assets/js/jquery-min.js"></script>
+         <script src="assets/js/popper.min.js"></script>
+         <script src="assets/js/bootstrap.min.js"></script>
+         <script src="assets/js/owl.carousel.min.js"></script>
+         <script src="assets/js/jquery.slicknav.js"></script>
+         <script src="assets/js/jquery.counterup.min.js"></script>
+         <script src="assets/js/waypoints.min.js"></script>
+         <script src="assets/js/form-validator.min.js"></script>
+         <script src="assets/js/contact-form-script.js"></script>
+         <script src="assets/js/career.js"></script>
+   </body>
+</html>
