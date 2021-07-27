@@ -606,7 +606,7 @@ footer p, footer a, footer h2{
 
 }
 @media only screen and (max-width:998px){
-    .inner-div{
+    .inn-div{
         grid-template-columns: auto auto;
     }
 }
@@ -621,7 +621,7 @@ footer p, footer a, footer h2{
     }
 }
 @media only screen and (max-width:706px){
-    .inner-div{
+    .inn-div{
         grid-template-columns: auto;
     }
 }
