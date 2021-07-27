@@ -625,6 +625,36 @@ footer p, footer a, footer h2{
         grid-template-columns: auto;
     }
 }
+@media only screen and (max-width:830px){
+    .inner-div{
+        grid-template-columns: auto auto;
+    }
+}
+@media only screen and (max-width:610px){
+   .inner-div{
+       grid-template-columns: auto;
+   }
+}
+@media only screen and (max-width:430px){
+    .grid-container{
+        padding:10px;
+    }
+}
+@media only screen and (max-width:330px){
+    .grid-container{
+        padding: 5px;
+    }
+}
+@media only screen and (max-width:1210px){
+    .modal{
+      padding-bottom: 30px;
+      padding-top: 30px;
+    }
+    .modal-flex input{
+        width:300px;
+    }
+
+}
 @media only screen and (max-width:941px){
     .join-form{
         width:430px;
