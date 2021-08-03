@@ -464,7 +464,7 @@ footer p, footer a, footer h2{
 #top{
     display: none;
     position: fixed;
-    bottom: 90px;
+    bottom: 120px;
     right:25px;
     z-index:50;
     padding:5px;
