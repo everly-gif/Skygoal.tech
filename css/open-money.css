@@ -421,12 +421,7 @@ left:480px;
     border: 3px solid black;
     
 }  */
-.mockup{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
+
 .main-container{
     padding: 30px;
 }
@@ -572,8 +567,8 @@ footer p, footer a, footer h2{
 #top{
     display: none;
     position: fixed;
-    bottom: 120px;
-    right:25px;
+    bottom: 20px;
+    right:10px;
     z-index:50;
     padding:5px;
     background-color: black;
@@ -590,10 +585,15 @@ footer p, footer a, footer h2{
     border:1px solid #D8445C;
     transition: all .3s ease-in-out;
 }
-
+.mockup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 
 /*Responsiveness*/
-@media only screen and (max-width:1033px){
+@media only screen and (max-width:1319px){
     .toggle-button{
         display: flex;
     }
@@ -858,5 +858,47 @@ footer p, footer a, footer h2{
     }
     .grid{
         grid-template-columns: auto;
+    }
+}
+@media only screen and (max-width:1210px){
+    .modal-flex input{
+        width:300px;
+    }
+    .modal{
+        padding-top: 30px;
+        padding-bottom: 30px;
+      }
+
+}
+@media only screen and (max-width:702px){
+    .modal-flex input{
+        width:250px;
+    }
+}
+@media only screen and (max-width:646px){
+    .modal-flex input{
+        width:200px;
+    }
+}
+@media only screen and (max-width:594px){
+    .a-img{
+        width:200px;
+        height:200px;
+    }
+    .modal-flex form{
+        padding-top:10px;
+    }
+}
+@media only screen and (max-width:474px){
+    .modal-flex{
+        flex-direction: column;
+    }
+    .modal-flex input{
+        width:300px;
+    }
+}
+@media only screen and (max-width:402px){
+    .modal-flex input{
+        width:200px;
     }
 }
