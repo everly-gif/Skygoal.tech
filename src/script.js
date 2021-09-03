@@ -106,6 +106,7 @@ function gototop() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
+
 document.getElementById('ec').addEventListener('click',()=>{
     window.location.href="e-commerce-solutions.html";
 });
