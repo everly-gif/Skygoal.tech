@@ -24,6 +24,13 @@ window.onload=function(){
         nlinks.classList.toggle('act');
     })
 
+    setTimeout(function () {
+      buttonClick(); //call your method
+      },10000);
+      function buttonClick(){
+      document.getElementById('show').click();
+    }
+
     var modal_res = document.getElementById("modal-res");
 
     // Get the button that opens the modal
