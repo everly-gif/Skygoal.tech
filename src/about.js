@@ -4,7 +4,42 @@ window.onload=function(){
     toggleButton.addEventListener('click', () => {
         nlinks.classList.toggle('act');
     })
+    setTimeout(function () {
+      buttonClick(); //call your method
+      },10000);
+      function buttonClick(){
+      document.getElementById('show').click();
+    }
+    var modal_res = document.getElementById("modal-res");
+
+    // Get the button that opens the modal
+    var btn_res = document.getElementById("show");
+    var n=document.getElementById("n");
+
+    // Get the <span> element that closes the modal
+    var span_res = document.getElementById("close-2");
+
+    // When the user clicks the button, open the modal 
+    btn_res.onclick = function() {
+    modal_res.style.display = "block";
+    n.style.zIndex="0";
+    }
+
+    // When the user clicks on <span> (x), close the modal
+    span_res.onclick = function() {
+    modal_res.style.display = "none";
+    }
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+    if (event.target == modal_res) {
+        modal_res.style.display = "none";
+    }
+    }
+  
   }
+ 
+
     // var modal = document.getElementById("modal");
 
     // // Get the button that opens the modal

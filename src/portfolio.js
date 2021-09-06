@@ -31,7 +31,13 @@ window.onload=function(){
     toggleButton.addEventListener('click', () => {
         nlinks.classList.toggle('act');
     })
-   
+    
+    setTimeout(function () {
+      buttonClick(); //call your method
+      },10000);
+      function buttonClick(){
+      document.getElementById('show').click();
+    }
    
     var modal_res = document.getElementById("modal-res");
 
